@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif; }
+
+body {
+  background: #F7F7F7; }
+
+header {
+  background: #fff;
+  padding: 32px; }
+
+section {
+  padding: 32px; }
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.05em;
+  font-weight: 400; }
+
+h3 {
+  font-size: 1.75rem;
+  line-height: 1.25em;
+  font-weight: 400; }
+
+p {
+  font-size: 1rem;
+  line-height: 1.375em;
+  font-weight: 300; }
+
+@media screen and (min-width: 320px) and (max-width: 414px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 1.25em; }
+
+  h3 {
+    font-size: 1.375rem;
+    line-height: 1.13636364em; }
+
+  p {
+    line-height: 1.25em; } }
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.overlay {
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  transition: 0.5s; }
+
+/* aids the javascript */
+.overlay.open {
+  height: 100%;
+  background: #fff; }
+
+.menu_content ul {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, 50%); }
+
+.menu_content ul li {
+  list-style-type: none;
+  text-align: center;
+  font-size: 2rem; }
+
+.menu_content ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5em;
+  display: block; }
+
+.menu_content ul li a:hover {
+  background: #F7F7F7; }
+
+#nav_icon {
+  display: inline-block;
+  position: fixed;
+  padding: 0.5em;
+  cursor: pointer;
+  right: 2em;
+  top: 2em;
+  transition: background .75s ease-in-out;
+  -moz-transition: background .75s ease-in-out;
+  -webkit-transition: background .75s ease-in-out;
+  transition: box-shadow .25s ease-in-out;
+  -moz-transition: box-shadow .25s ease-in-out;
+  -webkit-transition: box-shadow .25s ease-in-out;
+  z-index: 1000; }
+
+#nav_icon:hover {
+  background: #FDFCFC;
+  box-shadow: 0.5px 0.5px 8px #282828; }
+
+.icon {
+  width: 32px;
+  height: 32px;
+  position: relative; }
+
+.line {
+  position: absolute;
+  height: 1.5px;
+  width: 100%;
+  background-color: #101010;
+  transition: all cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.35s; }
+
+.top {
+  top: 38%; }
+
+.bottom {
+  top: 60%; }
+
+/*icon animation classes*/
+.icon.close .top {
+  transform: rotate(45deg);
+  top: 48%; }
+
+.icon.close .bottom {
+  transform: rotate(-45deg);
+  top: 48%; }
+
+/*# sourceMappingURL=style.css.map */
