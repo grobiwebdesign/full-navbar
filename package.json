@@ -1,0 +1,11 @@
+{
+  "name": "nav",
+  "version": "1.0.0",
+  "description": "full screen navbar",
+  "main": "index.js",
+  "scripts": {
+    "watch-sass": "sass --watch scss/style.scss:css/style.css"
+  },
+  "author": "grobiwebdesign",
+  "license": "ISC"
+}
