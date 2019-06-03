@@ -55,3 +55,10 @@
 	transform: rotate(-45deg);
 	top: $icon_line-position--animated;
 }
+
+@media screen and (min-width: 319px) and (max-width: 414px) {
+
+	#nav_icon{
+		top: 1em;
+	}
+}
