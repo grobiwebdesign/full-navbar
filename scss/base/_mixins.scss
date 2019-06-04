@@ -1,8 +1,0 @@
-@mixin add-background($color){
-	background:$color;
-	@if $color == $white{
-		color:$dark-grey;
-	} @elseif $color == $grey{
-		color:$black;
-	}
-}
