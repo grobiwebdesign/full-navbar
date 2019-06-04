@@ -5,7 +5,7 @@
 	padding: $icon-gap;
 	cursor: pointer;
 	right: 2em;
-	top: 0;
+	//top: 0;
 	transition: background .75s ease-in-out;
 	-moz-transition: background .75s ease-in-out;
 	-webkit-transition: background .75s ease-in-out;
@@ -56,9 +56,9 @@
 	top: $icon_line-position--animated;
 }
 
-@media screen and (min-width: 319px) and (max-width: 414px) {
+/*@media screen and (min-width: 319px) and (max-width: 414px) {
 
 	#nav_icon{
 		top: 0.5em;
 	}
-}
+}*/
